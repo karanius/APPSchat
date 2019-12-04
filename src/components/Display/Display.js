@@ -30,7 +30,7 @@ class Display extends React.Component {
         if (userOnline !== null) {
             const x = new Date()
             const p =document.createElement('p');
-            p.innerHTML = `${userOnline.user} is Online Now <span id='timeStamp'> ${x.getDay()}/${x.getMonth()}/${x.getFullYear()} @${x.getHours()}:${x.getMinutes()}</span>`;
+            p.innerHTML = `${userOnline.user} is online <span id='timeStamp'> ${x.getDay()}/${x.getMonth()}/${x.getFullYear()} @${x.getHours()}:${x.getMinutes()}</span>`;
             p.id = 'welcome'
             document.getElementById('comment').appendChild(p);
             setToNull('userOnline')
@@ -39,7 +39,7 @@ class Display extends React.Component {
         if (userLeft !== null) {
             const x = new Date()
             const p =document.createElement('p');
-            p.innerHTML = `${userLeft} is Online Now <span id='timeStamp'> ${x.getDay()}/${x.getMonth()}/${x.getFullYear()} @${x.getHours()}:${x.getMinutes()}</span>`;
+            p.innerHTML = `${userLeft} has left <span id='timeStamp'> ${x.getDay()}/${x.getMonth()}/${x.getFullYear()} @${x.getHours()}:${x.getMinutes()}</span>`;
             p.id='bye'
             document.getElementById('comment').appendChild(p);
             setToNull('userLeft')
