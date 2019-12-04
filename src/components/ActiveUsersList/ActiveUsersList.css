@@ -1,0 +1,33 @@
+#activeUsersListScreen{
+    background-color: rgb(116, 151, 255);
+    height: 100%;
+    border-left: 1px solid black;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 600;
+    box-shadow: -4px 0 30px -5px black;
+}
+
+#activePeople{
+    overflow: scroll;
+}
+
+#activePeople > li {
+    margin-top: 0;
+    padding-bottom:10px;
+}
+
+#activePeople > p {
+    margin: 0 0;
+    padding: 10px;
+}
+
+#activeBabes{
+    color: rgb(112, 36, 0);
+}
+
+#activeBabes::before{
+    content:"*"
+}

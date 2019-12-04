@@ -1,0 +1,29 @@
+#StatusBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#StatusBarName{
+    padding:5px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+#onlineUsersButtonDiv{
+    margin:13px;
+}
+
+#onlineUsersIcon{
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.664);
+    border-radius: 5px;
+    padding: 5px 10px;
+
+}
+
+#onlineUsersButtonDiv:active > #onlineUsersIcon{
+    background-color: rgba(255, 99, 71, 0.274);
+}
