@@ -8,7 +8,7 @@ some cool simple ideas for improvement would be:
 { 
 
   1: function stringToEmoji() { 
-        replaces words or phrases such as 'smile' 
+        replaces words or phrases such as '+smile' 
         with '😊' emoji  when sending a msg
   },
   
