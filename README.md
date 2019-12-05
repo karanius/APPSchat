@@ -1,6 +1,6 @@
 Stable version - LIVE CHAT :  https://appschat.herokuapp.com/ 
 
-Tech : React , Node.js , pSQL
+Tech : React , Node.js
 
 Dont be shy if you feel like you want to add a new component to the app. 
 
