@@ -1,4 +1,5 @@
 Stable version - LIVE CHAT :  https://appschat.herokuapp.com/ 
+~ !! If the above link doesnt work, thats because the server id sleeping. Just give it about 15 seconds and retry :)
 
 Tech : React , Node.js
 
