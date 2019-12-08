@@ -1,15 +1,15 @@
-Stable version - LIVE CHAT :  https://appschat.herokuapp.com/ 
-~ !! If the above link doesnt work, thats because the server id sleeping. Just give it about 15 seconds and retry :)
+Most stable version is LIVE @ :  https://appschat.herokuapp.com/ 
+~ !! If the above link doesnt work, thats because the server is sleeping. Just give it about 15 seconds and retry :)
 
 Tech : React , Node.js
 
-Dont be shy if you feel like you want to add a new component to the app!!
+Dont be shy: Fork the repo and do as you like. maybe add a new component to the app ? 
 some cool simple ideas for improvement would be: 
 ```
 { 
 
   1: function stringToEmoji() { 
-        replaces words or phrases such as '+smile' 
+        replaces words or phrases such as ':)' 
         with '😊' emoji  when sending a msg.
   },
   
