@@ -1,4 +1,4 @@
-Most stable version is LIVE @ :  https://appschat.herokuapp.com/ 
+Here is the "Most stable" version - Live@: https://appschat.herokuapp.com/  
 ~ !! If the above link doesnt work, thats because the server is sleeping. Just give it about 15 seconds and retry :)
 
 Tech : React , Node.js
